@@ -1,0 +1,23 @@
+   programa{
+    funcao inicio(){
+    real numeroPositivo,numeroNegativo,numeroNulo,numero
+    
+	escreva("\nDigite um número real:")
+	leia(numero)
+	
+	se(numero>0)
+	escreva("\nO número é  positivo:.")
+	
+	se(numero<0)
+	escreva("\nO número é  negativo:.")
+	
+	se(numero==0.0)
+	
+	escreva("\nO número é  nulo ou seja igual a zero.")
+	
+	
+	            }
+	
+	
+	
+	 }
