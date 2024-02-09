@@ -1,7 +1,6 @@
 programa
 {
-    funcao inicio()
-    {
+    funcao inicio(){
         real base, altura, area
 
         escreva("Digite a base do triângulo: ")
@@ -12,6 +11,12 @@ programa
 
         area = (base * altura) / 2
 
-        escreva("A área do triângulo é: ", area)
+         escreva("A área do triângulo é: ", area)
+
+         escreva("\n==Exibir Dados==")
+         escreva("\nBase:",base)
+         escreva("\nAltura:",altura)
+         escreva("\nÁrea:",area)
+         
     }
 }
