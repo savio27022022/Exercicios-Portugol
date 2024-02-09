@@ -1,0 +1,63 @@
+programa{
+//Declarar variáveis.
+     funcao inicio (){
+    
+//Solicitar dados ao usuário.
+Inteiro primeiroNumero,segundoNumero,soma
+Inteiro subtracacao,multiplicacao
+real divisao
+
+escreva("\nDigite o primeiro número\n:")
+leia(primiroNumero)
+escreva("\nDigite o segundo número\n:")
+leia(segundoNumero)
+
+
+//Calcular
+soma=primeiroNumero+segundoNumero
+subtracao=primeiroNumerosegundoNumero
+multiplicacao=primeiroNumero*segundo
+Numero
+divisao=primeiroNumero/segundoNumero
+
+
+//Exibir Mensagem
+escreva("\n==Exibindo resultados==")
+escreva("\nPrimeiro número",PrimeiroNumero)
+escreva("\nSegundo número:",segundoNumero)
+escreva("\nSoma: ", soma)
+escreva("\nSubtração: ",subtracao)
+escreva("\multiplicação:",multiplicacao)
+escreva("\nDivisao:",divisao)
+
+         }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
