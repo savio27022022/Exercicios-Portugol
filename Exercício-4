@@ -1,0 +1,76 @@
+programa{
+   funcao inicio(){
+   	
+  // Declarar as variáveis.
+  inteiro idade,n1,n2,n3,n4,media
+  cadeia nomeAluno
+  
+  //Solicitar duas notas ao usuário.
+  escreva("\nDigite o nome do aluno:\n")
+  leia(nomeAluno)
+  
+  escreva("\nDigite qual é a idade da pessoa:\n")
+  leia(idade)
+  
+  escreva("\nDigite a primeira nota do aluno:\n")
+  leia(n1)
+  
+  escreva("\nDigite a segunda nota do aluno:\n")
+  leia(n2)
+  
+  escreva("\nDigite a terceira  nota do aluno:\n")
+  leia(n3)
+  
+  escreva("\nDigite a quarta nota do aluno:\n")
+  leia(n4)
+  
+  
+    //Calcular 
+    media=(n1+n2+n3+n4)/4
+  
+  
+  //Exibir os resultados.
+ 
+	escreva("\nNome:",nomeAluno)
+	escreva("\nIdade:",idade)
+	escreva("\nPrimeira nota:",n1)
+	escreva("\nSegunda nota:",n2)
+	escreva("\nTerceira nota:",n3)
+	escreva("\nQuarta nota:",n4)
+	escreva("\nMédia:",media)
+    
+  
+ 
+
+	     }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
