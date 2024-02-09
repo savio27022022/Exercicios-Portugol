@@ -1,1 +1,34 @@
+programa{
+funcao inicio(){
+     real numero1,numero2,soma,produto,media,maiorNumero,
+     menorNumero.
 
+     escreva("\nDigite o primeiro número:" )
+     leia(numero1)
+
+      escreva("\nDigite o segundo número:")
+      leia(nunero2)
+ 
+      soma=numero1+numero2
+      produto=numero1*numero2
+      media=soma/2
+
+      se(numero1>numero2)
+      maiorNumero=primeiroNumero
+      menorNumero=segundoNumero
+
+     }senao{
+     maiorNumero=segundoNumero
+     menorNumero=primeiroNumero
+	 }
+	 
+	 escreva("\n==Exibindo os resultados==")
+	 escreva("\nPrimeiro numero: ",numero1)
+	 escreva("\nSegundo número:",numero2)
+	 escreva("\nSoma:",soma)
+	 escreva("\nProduto:",produto)
+	 escreva("\nMédia:",media)
+	 escreva("\nMaior número:",maiorNumero)
+	 escreva("\nMenor número:",menorNumero)
+	 
+   }
