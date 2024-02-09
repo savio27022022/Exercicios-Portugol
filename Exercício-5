@@ -1,0 +1,67 @@
+programa
+{
+    funcao inicio()
+    {
+        cadeia nome
+        inteiro idade
+        real nota1, nota2, nota3, media
+
+        escreva("Digite o nome do aluno: ")
+        leia(nome)
+
+        escreva("Digite a idade do aluno: ")
+        leia(idade)
+
+        escreva("Digite a primeira nota: ")
+        leia(nota1)
+
+        escreva("Digite a segunda nota: ")
+        leia(nota2)
+
+        escreva("Digite a terceira nota: ")
+        leia(nota3)
+
+        media = (nota1 + nota2 + nota3) / 3
+
+        escreva("Nome: ", nome, "\n")
+        escreva("Idade: ", idade, "\n")
+        escreva("Média: ", media, "\n")
+
+        se(media > 7){
+            escreva("Resultado: Aprovado\n")
+        }
+        senao{
+            escreva("Resultado: Reprovado\n")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
