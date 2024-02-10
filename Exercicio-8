@@ -1,0 +1,28 @@
+   programa{
+    funcao inicio(){
+    
+   inteiro numeroInteiro,mod,resto
+  
+   
+   escreva("\nDigite um número inteiro:")
+   leia(numeroInteiro)
+   
+   resto=numeroInteiro%5	
+   
+   se(resto==0)
+   escreva("\nÉ divisível  por 5.")
+   
+  se(resto!=0)
+		escreva("\nO número não é  divisível por 5.")
+  
+  
+
+	
+	            }
+	
+	
+	
+	 }
+
+	
+   
