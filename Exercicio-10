@@ -1,26 +1,3 @@
-programa
-{
-    funcao inicio()
-    {
-        inteiro quantidade, totalItens = 0, numeroDeProdutos
-        cadeia produto
-        
-        escreva("Quantos produtos diferentes você precisa comprar? ")
-        leia(numeroDeProdutos)
-        
-        para(inteiro i = 1; i <= numeroDeProdutos; i++){
-            escreva("Digite o nome do produto ", i, ": ")
-            leia(produto)
-            
-            escreva("Quantas unidades de ", produto, " você precisa comprar? ")
-            leia(quantidade)
-            
-            totalItens = totalItens + quantidade
-        }
-        
-        escreva("Você precisa comprar um total de ", totalItens, " itens.")
-    }
-}
 
 
 
