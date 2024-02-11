@@ -1,0 +1,44 @@
+programa{
+    funcao inicio(){
+    
+   real a,b,c
+   real delta,x1,x2
+  
+   escreva("\nDigite um coeficiente para a:")
+   leia(a)
+   
+   escreva("\nDigite um coeficiente para b:")
+   leia(b) 
+   
+   
+   escreva("\nDigite um coeficiente para c:")
+   leia(c)
+   
+   delta=b^2-4*a*c
+   
+   se(delta>0)
+   
+   escreva("\nDuas raízes reais e diferentes:\n")
+   x1=(-b+raiz(delta)/(2*a)
+   x2=(-b-raiz(delta)/2(*a)
+   
+   senao se(delta=0)
+   escreva("\nDuas raízes reais e iguais.")
+   
+   x1=-b/2a
+   x2=x1
+   
+  senao
+  escreva("\nNão existem raízes reais.")
+  
+  
+  se(delta=0)
+  escreva("x1=",x1)
+  escreva("x2=",x2)
+  
+ 
+    	
+              }
+						
+   }
+ 
