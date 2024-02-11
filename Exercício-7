@@ -1,6 +1,6 @@
    programa{
     funcao inicio(){
-    real numeroPositivo,numeroNegativo,numeroNulo,numero
+    real numero
     
 	escreva("\nDigite um número real:")
 	leia(numero)
