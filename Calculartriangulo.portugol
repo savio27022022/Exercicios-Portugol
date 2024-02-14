@@ -1,0 +1,59 @@
+programa
+{
+    funcao inicio()
+    {
+        real ladoA, ladoB, ladoC
+
+        escreva("Digite o comprimento do lado A: ")
+        leia(ladoA)
+        escreva("Digite o comprimento do lado B: ")
+        leia(ladoB)
+        escreva("Digite o comprimento do lado C: ")
+        leia(ladoC)
+
+        // Verifica se os lados formam um triângulo
+        se ((ladoA < ladoB + ladoC) e (ladoB < ladoA + ladoC) e (ladoC < ladoA + ladoB)){
+            // Verifica o tipo de triângulo
+            se (ladoA == ladoB e ladoB == ladoC){
+                escreva("O triângulo é Equilátero.")
+            }
+            senao se (ladoA == ladoB ou ladoA == ladoC ou ladoB == ladoC){
+                escreva("O triângulo é Isósceles.")
+            }
+            senao{
+                escreva("O triângulo é Escaleno.")
+            }
+        } senao {
+            escreva("Os lados informados não formam um triângulo.")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
