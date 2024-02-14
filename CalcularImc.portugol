@@ -1,0 +1,23 @@
+programa
+{
+    funcao inicio()
+    {
+        real peso, altura, imc
+
+        escreva("Digite o seu peso (em kg): ")
+        leia(peso)
+
+        escreva("Digite a sua altura (em metros): ")
+        leia(altura)
+
+        imc = peso / (altura * altura)
+
+        se (imc < 18.5) {
+            escreva("Seu IMC é ", imc, ". Você está abaixo do peso.")
+        } senao se (imc >= 18.5 e imc <= 24.9) {
+            escreva("Seu IMC é ", imc, ". Você está no peso ideal.")
+        } senao {
+            escreva("Seu IMC é ", imc, ". Você está acima do peso.")
+        }
+    }
+}
