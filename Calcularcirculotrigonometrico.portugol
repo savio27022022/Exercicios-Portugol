@@ -1,1 +1,53 @@
+programa
+{
+    funcao inicio()
+    {
+        real angulo
+
+        escreva("Digite o ângulo em graus: ")
+        leia(angulo)
+
+        angulo = angulo % 360 // Normaliza o ângulo para o intervalo de 0 a 359 graus
+
+        se (angulo >= 0 e angulo < 90) {
+            escreva("O ângulo está no primeiro quadrante. Seno e Cosseno são positivos.")
+        } senao se (angulo >= 90 e angulo < 180) {
+            escreva("O ângulo está no segundo quadrante. Seno é positivo e Cosseno é negativo.")
+        } senao se (angulo >= 180 e angulo < 270) {
+            escreva("O ângulo está no terceiro quadrante. Seno e Cosseno são negativos.")
+        } senao {
+            escreva("O ângulo está no quarto quadrante. Seno é negativo e Cosseno é positivo.")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
