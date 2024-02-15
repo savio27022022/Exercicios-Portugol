@@ -1,0 +1,83 @@
+programa{
+       
+funcao inicio() {
+  inteiro  opcao
+  cadeia valor,prato
+
+  escreva("=========Menu========")
+  escreva("\n[1]-Picanha-R$ 25,00")
+  escreva("\n[2]-Lasanha- R$25,00")
+  escreva("\n[3]-Strogonoff-R$25,00")
+  escreva("\n[4]-Bife Acebolado-R$25,00")
+  escreva("\n[5]-Pão com Ovo-R$25,00")
+
+   escreva("\nDigite a sua opção desejada:")
+   leia(opcao)
+   
+  escolha(opcao)
+  caso 1:
+  prato="Picanha"
+  valor="R$25,00"
+  caso 2:
+  prato="Lasanha"
+  valor="R$25,00"
+  caso 3:
+  prato="Strogonoff"
+  valor="R$25,00"
+  caso 4:
+  prato="Bife Acebolado"
+  valor="R$25,00"
+  caso 5:
+  prato="Pão com Ovo"
+  valor="R$25,00"
+  caso contrario:
+  escreva("\nOpção Inválida:")
+  
+  
+  escreva("\n==============")
+  escreva("\nPrato Escolhido:",prato)
+  escreva("\nValor:",valor)
+  
+  
+  
+  
+	   
+	   
+	   
+	   
+            
+       
+	   
+	   
+          	} 
+	 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
