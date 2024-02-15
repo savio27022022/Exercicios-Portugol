@@ -1,0 +1,57 @@
+
+   programa{
+
+     funcao inicio(){
+    // Declaração de variável
+    inteiro dia
+
+    // Leitura do dia da semana
+    escreva("Digite o número do dia da semana (1 a 7): ")
+    leia(dia)
+
+    // Estrutura de seleção "Escolha Caso"
+         escolha(dia)
+        caso 1:
+            escreva("Domingo - Final de semana")
+        caso 2:
+            escreva("Segunda-feira - Dia útil")
+        caso 3:
+            escreva("Terça-feira - Dia útil")
+        caso 4:
+            escreva("Quarta-feira - Dia útil")
+        caso 5:
+            escreva("Quinta-feira - Dia útil")
+        caso 6:
+            escreva("Sexta-feira - Dia útil")
+        caso 7:
+            escreva("Sábado - Final de semana")
+        caso contrario:
+            escreva("Dia inválido!")
+   
+
+
+  
+  
+          	  } 
+	 
+          }
+   
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
